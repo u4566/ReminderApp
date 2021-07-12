@@ -1,0 +1,437 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		800D3CA7269B1949000393B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CA6269B1949000393B7 /* AppDelegate.swift */; };
+		800D3CA9269B1949000393B7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CA8269B1949000393B7 /* SceneDelegate.swift */; };
+		800D3CAE269B1949000393B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800D3CAC269B1949000393B7 /* Main.storyboard */; };
+		800D3CB1269B1949000393B7 /* Wysa_Assignment.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CAF269B1949000393B7 /* Wysa_Assignment.xcdatamodeld */; };
+		800D3CB3269B194C000393B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 800D3CB2269B194C000393B7 /* Assets.xcassets */; };
+		800D3CB6269B194C000393B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 800D3CB4269B194C000393B7 /* LaunchScreen.storyboard */; };
+		800D3CC1269B1B8A000393B7 /* ReminderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CC0269B1B8A000393B7 /* ReminderListVC.swift */; };
+		800D3CC6269B1FE5000393B7 /* ReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CC5269B1FE5000393B7 /* ReminderCell.swift */; };
+		800D3CCC269B38BD000393B7 /* ReminderVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CCB269B38BD000393B7 /* ReminderVM.swift */; };
+		800D3CD0269B3EAC000393B7 /* ReminderBottomCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CCF269B3EAC000393B7 /* ReminderBottomCardVC.swift */; };
+		800D3CD4269B43C3000393B7 /* BottomCardHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CD3269B43C3000393B7 /* BottomCardHelper.swift */; };
+		800D3CD8269B445F000393B7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CD7269B445F000393B7 /* Extensions.swift */; };
+		800D3CDC269B4B78000393B7 /* AddReminderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CDA269B4B78000393B7 /* AddReminderCell.swift */; };
+		800D3CDD269B4B78000393B7 /* AddReminderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 800D3CDB269B4B78000393B7 /* AddReminderCell.xib */; };
+		800D3CE0269B606D000393B7 /* Keys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CDF269B606D000393B7 /* Keys.swift */; };
+		800D3CE3269CBE95000393B7 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 800D3CE2269CBE95000393B7 /* Colors.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		800D3CA3269B1949000393B7 /* Wysa Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wysa Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		800D3CA6269B1949000393B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		800D3CA8269B1949000393B7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		800D3CAD269B1949000393B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		800D3CB0269B1949000393B7 /* Wysa_Assignment.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wysa_Assignment.xcdatamodel; sourceTree = "<group>"; };
+		800D3CB2269B194C000393B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		800D3CB5269B194C000393B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		800D3CB7269B194C000393B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		800D3CC0269B1B8A000393B7 /* ReminderListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListVC.swift; sourceTree = "<group>"; };
+		800D3CC5269B1FE5000393B7 /* ReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderCell.swift; sourceTree = "<group>"; };
+		800D3CCB269B38BD000393B7 /* ReminderVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderVM.swift; sourceTree = "<group>"; };
+		800D3CCF269B3EAC000393B7 /* ReminderBottomCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderBottomCardVC.swift; sourceTree = "<group>"; };
+		800D3CD3269B43C3000393B7 /* BottomCardHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomCardHelper.swift; sourceTree = "<group>"; };
+		800D3CD7269B445F000393B7 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		800D3CDA269B4B78000393B7 /* AddReminderCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddReminderCell.swift; sourceTree = "<group>"; };
+		800D3CDB269B4B78000393B7 /* AddReminderCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddReminderCell.xib; sourceTree = "<group>"; };
+		800D3CDF269B606D000393B7 /* Keys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keys.swift; sourceTree = "<group>"; };
+		800D3CE2269CBE95000393B7 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		800D3CA0269B1949000393B7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		800D3C9A269B1949000393B7 = {
+			isa = PBXGroup;
+			children = (
+				800D3CA5269B1949000393B7 /* Wysa Assignment */,
+				800D3CA4269B1949000393B7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		800D3CA4269B1949000393B7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				800D3CA3269B1949000393B7 /* Wysa Assignment.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		800D3CA5269B1949000393B7 /* Wysa Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				800D3CD2269B43A7000393B7 /* Utility */,
+				800D3CCA269B389F000393B7 /* View Models */,
+				800D3CC8269B25AB000393B7 /* Models */,
+				800D3CC3269B1EC0000393B7 /* Cells */,
+				800D3CBF269B1B5F000393B7 /* Controllers */,
+				800D3CA6269B1949000393B7 /* AppDelegate.swift */,
+				800D3CA8269B1949000393B7 /* SceneDelegate.swift */,
+				800D3CAC269B1949000393B7 /* Main.storyboard */,
+				800D3CB2269B194C000393B7 /* Assets.xcassets */,
+				800D3CB4269B194C000393B7 /* LaunchScreen.storyboard */,
+				800D3CB7269B194C000393B7 /* Info.plist */,
+			);
+			path = "Wysa Assignment";
+			sourceTree = "<group>";
+		};
+		800D3CBF269B1B5F000393B7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				800D3CC0269B1B8A000393B7 /* ReminderListVC.swift */,
+				800D3CCF269B3EAC000393B7 /* ReminderBottomCardVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		800D3CC3269B1EC0000393B7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				800D3CC5269B1FE5000393B7 /* ReminderCell.swift */,
+				800D3CDA269B4B78000393B7 /* AddReminderCell.swift */,
+				800D3CDB269B4B78000393B7 /* AddReminderCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		800D3CC8269B25AB000393B7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				800D3CAF269B1949000393B7 /* Wysa_Assignment.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		800D3CCA269B389F000393B7 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				800D3CCB269B38BD000393B7 /* ReminderVM.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		800D3CD2269B43A7000393B7 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				800D3CD3269B43C3000393B7 /* BottomCardHelper.swift */,
+				800D3CD7269B445F000393B7 /* Extensions.swift */,
+				800D3CDF269B606D000393B7 /* Keys.swift */,
+				800D3CE2269CBE95000393B7 /* Colors.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		800D3CA2269B1949000393B7 /* Wysa Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 800D3CBA269B194C000393B7 /* Build configuration list for PBXNativeTarget "Wysa Assignment" */;
+			buildPhases = (
+				800D3C9F269B1949000393B7 /* Sources */,
+				800D3CA0269B1949000393B7 /* Frameworks */,
+				800D3CA1269B1949000393B7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wysa Assignment";
+			productName = "Wysa Assignment";
+			productReference = 800D3CA3269B1949000393B7 /* Wysa Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		800D3C9B269B1949000393B7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					800D3CA2269B1949000393B7 = {
+						CreatedOnToolsVersion = 12.3;
+					};
+				};
+			};
+			buildConfigurationList = 800D3C9E269B1949000393B7 /* Build configuration list for PBXProject "Wysa Assignment" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 800D3C9A269B1949000393B7;
+			productRefGroup = 800D3CA4269B1949000393B7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				800D3CA2269B1949000393B7 /* Wysa Assignment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		800D3CA1269B1949000393B7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800D3CB6269B194C000393B7 /* LaunchScreen.storyboard in Resources */,
+				800D3CB3269B194C000393B7 /* Assets.xcassets in Resources */,
+				800D3CAE269B1949000393B7 /* Main.storyboard in Resources */,
+				800D3CDD269B4B78000393B7 /* AddReminderCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		800D3C9F269B1949000393B7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				800D3CD4269B43C3000393B7 /* BottomCardHelper.swift in Sources */,
+				800D3CE3269CBE95000393B7 /* Colors.swift in Sources */,
+				800D3CD8269B445F000393B7 /* Extensions.swift in Sources */,
+				800D3CD0269B3EAC000393B7 /* ReminderBottomCardVC.swift in Sources */,
+				800D3CDC269B4B78000393B7 /* AddReminderCell.swift in Sources */,
+				800D3CE0269B606D000393B7 /* Keys.swift in Sources */,
+				800D3CC6269B1FE5000393B7 /* ReminderCell.swift in Sources */,
+				800D3CB1269B1949000393B7 /* Wysa_Assignment.xcdatamodeld in Sources */,
+				800D3CCC269B38BD000393B7 /* ReminderVM.swift in Sources */,
+				800D3CA7269B1949000393B7 /* AppDelegate.swift in Sources */,
+				800D3CC1269B1B8A000393B7 /* ReminderListVC.swift in Sources */,
+				800D3CA9269B1949000393B7 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		800D3CAC269B1949000393B7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800D3CAD269B1949000393B7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		800D3CB4269B194C000393B7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				800D3CB5269B194C000393B7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		800D3CB8269B194C000393B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		800D3CB9269B194C000393B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		800D3CBB269B194C000393B7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wysa Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.assignment.Wysa-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		800D3CBC269B194C000393B7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Wysa Assignment/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ios.assignment.Wysa-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		800D3C9E269B1949000393B7 /* Build configuration list for PBXProject "Wysa Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800D3CB8269B194C000393B7 /* Debug */,
+				800D3CB9269B194C000393B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		800D3CBA269B194C000393B7 /* Build configuration list for PBXNativeTarget "Wysa Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				800D3CBB269B194C000393B7 /* Debug */,
+				800D3CBC269B194C000393B7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		800D3CAF269B1949000393B7 /* Wysa_Assignment.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				800D3CB0269B1949000393B7 /* Wysa_Assignment.xcdatamodel */,
+			);
+			currentVersion = 800D3CB0269B1949000393B7 /* Wysa_Assignment.xcdatamodel */;
+			path = Wysa_Assignment.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 800D3C9B269B1949000393B7 /* Project object */;
+}
